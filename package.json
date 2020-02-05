@@ -1,11 +1,12 @@
 {
   "name": "@aller/mustachejs-partial-loader",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "author": "Aller Media",
   "license": "MIT",
   "description": "Mustache.js partial loader for webpack",
   "keywords": [
     "webpack",
+    "partials",
     "loader",
     "mustache"
   ],
@@ -26,8 +27,7 @@
     "webpack": "^4.41.5"
   },
   "dependencies": {
-    "loader-utils": "^1.2.3",
-    "mustache": "^4.0.0"
+    "loader-utils": "^1.2.3"
   },
   "env": {
     "node": true,
